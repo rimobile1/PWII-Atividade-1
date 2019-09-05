@@ -1,10 +1,17 @@
-let numero: number = 10
 
-if(numero %2  == 0 )
+
+
+let parImpar = function (parImpar : number = 10) : boolean
 {
-    console.log("Par");
+    if(parImpar %2 == 0)
+    {
+        return true
+    }
+    else
+    {
+        return false
+    }
 }
-else
-{
-    console.log("Impar");
-}
+
+
+console.log("o numero 15 é par? " + parImpar(15))

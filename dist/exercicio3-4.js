@@ -1,7 +1,10 @@
-var numero = 10;
-if (numero % 2 == 0) {
-    console.log("Par");
-}
-else {
-    console.log("Impar");
-}
+var parImpar = function (parImpar) {
+    if (parImpar === void 0) { parImpar = 10; }
+    if (parImpar % 2 == 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+};
+console.log("o numero 15 é par? " + parImpar(15));
