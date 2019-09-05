@@ -1,19 +1,19 @@
 "use strict";
 exports.__esModule = true;
-var Viagem = /** @class */ (function () {
-    function Viagem(diametro, custoConstrucao) {
+var Pscina = /** @class */ (function () {
+    function Pscina(diametro, custoConstrucao) {
         this.diametro = diametro;
         this.custoConstrucao = custoConstrucao;
     }
-    Viagem.prototype.raio = function () {
+    Pscina.prototype.raio = function () {
         return this.diametro / 2;
     };
-    Viagem.prototype.area = function () {
+    Pscina.prototype.area = function () {
         return this.raio() * this.raio() * 3.1415;
     };
-    Viagem.prototype.custoTotal = function () {
+    Pscina.prototype.custoTotal = function () {
         return this.area() * this.custoConstrucao;
     };
-    return Viagem;
+    return Pscina;
 }());
-exports.Viagem = Viagem;
+exports.Pscina = Pscina;

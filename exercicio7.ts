@@ -1,4 +1,4 @@
-export class Viagem {
+export class Pscina {
 
     constructor(public  diametro:number,public custoConstrucao:number){}
 
